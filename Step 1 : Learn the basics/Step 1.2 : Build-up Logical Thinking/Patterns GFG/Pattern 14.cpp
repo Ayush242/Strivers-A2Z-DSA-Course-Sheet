@@ -14,3 +14,11 @@ void printTriangle(int n) {
             cout<<endl;
         }
     }
+
+// Alternative Solution
+for(int i=0;i<N;i++){
+  for(char ch = 'A'; ch<='A'+i;ch++){
+      cout<<ch<<" ";
+  }
+  cout<<endl;
+}
